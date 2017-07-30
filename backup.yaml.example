@@ -1,0 +1,9 @@
+site_name: mysite 
+backup_name: mysite-mysql
+backup_dir: /backup/dir
+restore_dir: /restore/dir
+secret: /etc/backup/secret 
+s3:
+  key: AKXXX
+  secret: 123456xyzabc 
+  bucket: mysite-backup
